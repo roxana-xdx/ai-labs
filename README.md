@@ -15,7 +15,8 @@ Expands on the optimization techniques by introducing temperature-based and memo
 * **Algorithms Implemented:**
   * Simulated Annealing (SA)
   * Tabu Search (TS)
-* **Features:** * TSP optimization uses parametrized neighborhood generation methods (2-swap and 2-opt).
+* **Features:**
+  * TSP optimization uses parametrized neighborhood generation methods (2-swap and 2-opt).
   * Extensive performance benchmarking across different hyperparameters (iterations, tabu sizes, cooling rates).
 
 ### [Assignment 3: Evolutionary Algorithms & PSO](./Assignment%203.ipynb)
