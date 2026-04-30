@@ -29,8 +29,21 @@ Explores population-based metaheuristics for combinatorial and continuous optimi
   * **TSP:** Permutation representation with specialized crossover and mutation operators.
   * **Real Coding (PSO):** Optimizing continuous functions (e.g., the Michalewicz function) using a swarm of particles with inertia and cognitive/social parameters.
 
+### [Assignment 4: Machine Learning - Classification & Regression](./Assignment%204.ipynb)
+Focuses on applying supervised machine learning techniques to solve classification and regression problems.
+* **Algorithms Implemented:**
+  * Decision Trees (Classifier & Regressor)
+  * Random Forest (Classifier & Regressor)
+  * Neural Networks (via `sklearn` and `PyTorch`)
+* **Features:**
+  * **Data Preprocessing:** Includes data normalization using `MinMaxScaler` and `StandardScaler`, alongside train/test data splitting.
+  * **Model Evaluation:** Utilizes cross-validation and pipeline structures to track metrics like Accuracy, Precision, Recall, F1-Score, Mean Squared Error (MSE), and R2 Score.
+* **Datasets:** Benchmarked on the Iris dataset for classification tasks and the Diabetes dataset for regression tasks.
+
 ## Technologies Used
 * **Python 3**
 * **Jupyter Notebook**
 * **NumPy** (for matrix operations and random distributions)
+* **scikit-learn** (for dataset loading, preprocessing, model pipelines, and evaluation metrics)
+* **PyTorch** (for building, optimizing, and training custom neural networks)
 * **Time & Math modules** (for performance tracking and complex function evaluation)
